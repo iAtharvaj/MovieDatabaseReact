@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.movie {
+  background-color: #f3f3f3;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.movie h2 {
+  color: #333;
+}
+
+.movie p {
+  color: #555;
+}
